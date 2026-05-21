@@ -1,0 +1,38 @@
+/* Секция Hero — основной контейнер */
+.hero {
+padding: 60px 80px 40px 80px;
+}
+
+/* Сетка Hero: делит страницу на сайдбар и основной контент */
+.hero__container {
+    display: grid;
+    /* Левая колонка фиксированная (400px), правая занимает остальное место */
+    grid-template-columns: 400px 1fr;
+    /* Расстояние между сайдбаром и сеткой статей */
+    gap: 128px;
+    align-items: start;
+   
+}
+
+/* Сайдбар категорий */
+.categories {
+    display: flex;
+    flex-direction: column;
+    /* Прижимает футер сайдбара к низу, если контента мало */
+    min-height: 100%;
+}
+
+/* Сетка статей внутри Hero */
+.articles-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap для строк и колонок */
+    gap: 40px 32px;
+}
+
+/* Логика расположения карточек: 
+1-я и 3-я строки — большие (на 2 колонки), 
+2-я и 4-я — по две малых */
+.article-card--featured {
+    grid-column: span 2;
+}

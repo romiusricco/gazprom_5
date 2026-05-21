@@ -1,0 +1,57 @@
+.categories__title {
+    margin: 0 0 24px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    /* Темно-синий/черный цвет заголовка */
+    color: #1E222E;
+}
+
+.categories__description {
+    margin: 0 0 48px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #696E82;
+    /* Серый цвет описания */
+}
+
+.categories__nav {
+    margin-bottom: 60px;
+}
+
+.categories__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    /* Отступ между пунктами меню */
+}
+
+.categories__link {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    /* Расстояние между иконкой и текстом */
+}
+
+/* Обертка для иконки с закруглением */
+.categories__icon-wrapper {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    /* Закругление углов иконок */
+    overflow: hidden;
+}
+
+/* Стили для текста категорий */
+.categories__text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1E222E;
+    /* Темно-синий/черный цвет текста */
+}

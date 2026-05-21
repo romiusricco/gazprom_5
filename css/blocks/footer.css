@@ -1,0 +1,39 @@
+.social {
+    margin: 0;
+}
+
+.social__title {
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #696E82;
+    /* Серый цвет подписи */
+}
+
+.social__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.social__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #EDEEEF;
+    /* Светлая подложка круга */
+    border-radius: 50%;
+}
+
+.categories__copyright {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #696E82;
+    max-width: 400px;
+    /* Ограничение ширины для соответствия макету */
+}
